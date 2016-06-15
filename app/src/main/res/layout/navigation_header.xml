@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="185dp"
+    android:id="@+id/header"
+    android:background="@color/md_blue_500"
+    android:clickable="true" >
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+
+
+        <ImageView
+            android:id="@+id/back_color"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:background="@color/md_blue_500"
+            android:scaleType="fitXY"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:background="#20000000"
+            tools:ignore="ContentDescription"/>
+
+
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/drawer_grouping_padding"
+        android:paddingEnd="@dimen/drawer_right"
+        android:paddingLeft="@dimen/drawer_left"
+        android:paddingRight="@dimen/drawer_right"
+        android:paddingStart="@dimen/drawer_left"
+        android:paddingTop="@dimen/drawer_top"
+        tools:ignore="RtlHardcoded">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_vertical"
+            android:paddingTop="19dp">
+
+
+
+            <ImageView
+                android:id="@+id/profile_pic"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="start"
+                android:contentDescription="Profile Picture"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/ic_launcher"
+                tools:ignore="HardcodedText"  />
+
+
+            <TextView
+                android:id="@+id/profile_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginTop="20dp"
+                android:text="@string/privacy_browser"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                tools:ignore="HardcodedText" />
+
+
+
+            <TextView
+                android:id="@+id/user_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:paddingTop="3.0dip"
+                android:text="Version: 2.0.2"
+                android:alpha="8.0"
+                android:textColor="@color/white"
+                tools:ignore="HardcodedText" />
+
+
+
+
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</FrameLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  Copyright 2016 Soren Stoutner <soren@stoutner.com>.
+
+  This file is part of Privacy Browser <https://www.stoutner.com/privacy-browser>.
+
+  Privacy Browser is free software: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation, either version 3 of the License, or
+  (at your option) any later version.
+
+  Privacy Browser is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+
+  You should have received a copy of the GNU General Public License
+  along with Privacy Browser.  If not, see <http://www.gnu.org/licenses/>. -->
+
+<!-- These color resources are hardcoded for vector drawables.  Once the minimum API is >= 22 we can remove the hardcoded colors and reference these entries. -->
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="blue">#FF1976D2</color>
+    <color name="green">#FF64DD17</color>
+    <color name="red">#FFD50000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="yellow">#FFFFD600</color>
+    <color name="md_blue_500">#2196f3</color>
+    <color name="md_blue_600">#1e88e5</color>
+    <color name="md_blue_800">#1565c0</color>
+    <color name="bcP">#C2185B</color>
+    <color name="md_deep_purple_700">#512da8</color>
+    <color name="md_blue_500_25">#402196f3</color>
+    <color name="md_blue_400">#42a5f5</color>
+    <color name="md_deep_purple_400">#7e57c2</color>
+    <color name="md_pink_400">#ec407a</color>
+    <color name="pcPD">#9E9E9E</color>
+    <color name="md_grey_900">#212121</color>
+    <color name="md_grey_800">#424242</color>
+    <color name="md_grey_700">#616161</color>
+</resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.creativetrends.simplicity.app" >
+
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+
+
+    <application
+        android:label="@string/privacy_browser"
+        android:icon="@mipmap/ic_launcher"
+        android:theme="@style/AppTheme"
+        android:allowBackup="false"
+        android:fullBackupContent="false" >
+
+        <activity
+            android:name=".SimplicityActivity"
+            android:label="@string/privacy_browser"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:configChanges="orientation|screenSize"
+            android:launchMode="singleTask"
+            android:persistableMode="persistNever"
+            tools:ignore="UnusedAttribute">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:scheme="http" />
+                <data android:scheme="https" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/privacy_browser_settings"
+            android:parentActivityName=".SimplicityActivity"
+            android:persistableMode="persistNever"
+            tools:ignore="UnusedAttribute">
+
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".SimplicityActivity" />
+        </activity>
+
+    </application>
+
+</manifest>

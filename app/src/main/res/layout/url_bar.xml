@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/addressBarFrameLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <RelativeLayout
+        android:id="@+id/addressBarRelativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="UselessParent">
+
+
+    <ImageView
+        android:id="@+id/favoriteIcon"
+        android:src="@drawable/ic_secure"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_gravity="start|center_vertical"
+        android:contentDescription="@string/favorite_icon"
+        android:visibility="gone"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+        <EditText
+            android:id="@+id/urlTextBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border"
+            android:padding="6dp"
+            android:layout_toEndOf="@id/favoriteIcon"
+            android:layout_toRightOf="@id/favoriteIcon"
+            android:imeOptions="actionGo"
+            android:inputType="textUri"
+            tools:ignore="UnusedAttribute" />
+    </RelativeLayout>
+
+
+
+
+</FrameLayout>

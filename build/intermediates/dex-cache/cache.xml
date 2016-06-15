@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Jorell\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="C:\Users\Jorell\Documents\StudioProjects\Simplicity\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.4.0_511e37256e328d02ceea472d7c2e1c3c387dd0f1\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Jorell\Documents\StudioProjects\Simplicity\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="C:\Users\Jorell\Documents\StudioProjects\Simplicity\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.4.0_d5c9d4981d9b747fa6b667458ca95fe353da121d\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Jorell\Documents\StudioProjects\Simplicity\app\build\intermediates\exploded-aar\com.android.support\design\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="C:\Users\Jorell\Documents\StudioProjects\Simplicity\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-23.4.0_ceb4eda19eb2e9cd8129a619a45ff7a0f6c3cf55\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Jorell\Documents\StudioProjects\Simplicity\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="C:\Users\Jorell\Documents\StudioProjects\Simplicity\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.4.0_c01b288a0476b4f9d6225907b418f2548bfcc544\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Jorell\Documents\StudioProjects\Simplicity\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="C:\Users\Jorell\Documents\StudioProjects\Simplicity\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-23.4.0_f9f54886ca04f8e80fedaa4fe24f26b0c029d1b0\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Jorell\Documents\StudioProjects\Simplicity\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="e20d30fce24dc6098f72501bb830d258113dd6c3">
+        <dex dex="C:\Users\Jorell\Documents\StudioProjects\Simplicity\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_57dbf4ba0a8c965e539bcad2c5292d5138c5082b\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Jorell\Documents\StudioProjects\Simplicity\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="7af1d99d34fcc92c72b3d977fb49d89b9c2e9059">
+        <dex dex="C:\Users\Jorell\Documents\StudioProjects\Simplicity\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_a23c52dd8c0fe2b68aabd1e66332981d658f89c9\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Jorell\Documents\StudioProjects\Simplicity\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="C:\Users\Jorell\Documents\StudioProjects\Simplicity\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.4.0_8bf67bd4ece99c7db178f0fe7ef801592b22efc9\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Jorell\Documents\StudioProjects\Simplicity\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="C:\Users\Jorell\Documents\StudioProjects\Simplicity\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.4.0_8894c6e5d4b3f7be10273b2554f41ff4523fdaaf\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Jorell\Documents\StudioProjects\Simplicity\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="C:\Users\Jorell\Documents\StudioProjects\Simplicity\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.4.0_3ed677fd3cc21be16282fda64d2c3cfe300b2df7\classes.dex" />
+    </item>
+
+</items>

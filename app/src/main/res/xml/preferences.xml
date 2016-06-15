@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  Copyright 2016 Soren Stoutner <soren@stoutner.com>.
+
+  This file is part of Privacy Browser <https://www.stoutner.com/privacy-browser>.
+
+  Privacy Browser is free software: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation, either version 3 of the License, or
+  (at your option) any later version.
+
+  Privacy Browser is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+
+  You should have received a copy of the GNU General Public License
+  along with Privacy Browser.  If not, see <http://www.gnu.org/licenses/>. -->
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:key="privacy_settings"
+        android:title="@string/privacy_settings" >
+
+        <SwitchPreference
+            android:key="javascript_enabled"
+            android:title="@string/javascript_preference"
+            android:defaultValue="true" />
+
+        <SwitchPreference
+            android:key="first_party_cookies_enabled"
+            android:title="@string/first_party_cookies_preference"
+            android:defaultValue="true" />
+
+        <SwitchPreference
+            android:key="third_party_cookies_enabled"
+            android:title="@string/third_party_cookies_preference"
+            android:defaultValue="true" />
+
+        <SwitchPreference
+            android:key="dom_storage_enabled"
+            android:title="@string/dom_storage_preference"
+            android:defaultValue="true" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="general_settings"
+        android:title="@string/general_settings" >
+
+        <EditTextPreference
+            android:key="homepage"
+            android:title="@string/homepage_preference"
+            android:defaultValue="https://www.google.com"
+            android:inputType="textUri"
+            android:singleLine="true" />
+    </PreferenceCategory>
+</PreferenceScreen>
